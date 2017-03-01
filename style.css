@@ -242,31 +242,41 @@ li {
 display: inline;
     padding: 10px;
 }
-----------------------------------------------------------
-@media screen and (min-width:300px) and (max-width: 599px){
+/*  ----------------------------------------------------------------  */
+@media screen and (max-width: 650px){
+main{
+  width:360px;
+}
+#headertext{
+  display: none;
+}
+
 	#block{
       width:800px;
       height:1500px;
       top:-700px;
-      right: -600px;
+      right: -800px;
       transform: rotate(-45deg);
 	}
   #text{
     margin-left: 100px;
     margin-top: 200px;
-    width:600px;
+    width:320px;
   }
   iframe{
     width:250px;
     height:145px;
   }
-  footer{width:2004px;
-  height:300px;
+  footer{
+
+    width:2004px;
+  height:260px;
 }
 header{
-    left:-170px;
-    top:-350px;
-    transform: rotate(-12deg);
+    left:-370px;
+    top:-600px;
+    transform: rotate(-19deg);
+
   }
   aside{
     top:-25px;
@@ -284,48 +294,9 @@ header{
 
 
 
-@media screen and (min-width:400px) and (max-width: 599px){
-	#block{
-      width:800px;
-      height:1500px;
-      top:-700px;
-      right: -600px;
-      transform: rotate(-45deg);
-	}
-  #text{
-    margin-left: 100px;
-    margin-top: 200px;
-    width:600px;
-  }
-  iframe{
-    width:560px;
-    height:325px;
-  }
-  footer{width:2004px;
-  height:300px;
-}
-header{
-    left:-170px;
-    top:-350px;
-    transform: rotate(-12deg);
-  }
-  aside{
-    top:-25px;
-    right: -10px;
-    padding-left: 30px;
-    padding-top: 20px;
-  }
-  nav{
-          margin-top: -200px;
-  }
-  .container {
-    width: 500px;
-  }
-}
 
 
-
-@media screen and (min-width:600px) and (max-width: 799px){
+@media screen and (min-width:651px) and (max-width: 799px){
 	#block{
       width:800px;
       height:1500px;
