@@ -258,7 +258,8 @@ body{
       width:800px;
       height:1500px;
       top:-700px;
-      right: -800px;
+      right: -840px;
+      background-color: #e1827d;
       transform: rotate(-45deg);
 	}
   #text{
@@ -271,21 +272,24 @@ body{
     height:186px;
   }
   footer{
-
+    background-color: #717177;
     width:2004px;
   height:260px;
 }
 header{
     left:-370px;
     top:-580px;
+    background-color: #717177;
     transform: rotate(-16deg);
 
   }
   aside{
+    display: none;
     top:-25px;
     right: -10px;
     padding-left: 30px;
     padding-top: 20px;
+    z-index: 10;
   }
   nav{
           margin-top: -200px;
