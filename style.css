@@ -250,37 +250,57 @@ main{
 #headertext{
   display: none;
 }
+#headertextmobile{
+font-size: 50px;
+
+transform:rotate(0deg);
+padding-top: 98px;
+padding-left: 200px;
+color: 	#5f5f66;
+}
 body{
-  background-color: #FEe6d5;
+  background-color: #8ba9b1;
 }
 
 	#block{
-      width:800px;
-      height:1500px;
-      top:-700px;
-      right: -840px;
-      background-color: #e1827d;
-      transform: rotate(-45deg);
+      width:450px;
+      height:200px;
+      top:220px;
+      right: -20px;
+      background-color: #da635d;
+      transform: rotate(3deg);
+      box-shadow: 4px -9px 66px -2px rgba(0,0,0,0.95);
 	}
+
+
+  #footext{
+    display:none;
+  }
   #text{
+    display: none;
     margin-left: 100px;
     margin-top: 200px;
     width:320px;
   }
   iframe{
+    display: none;
     width:320px;
     height:186px;
   }
   footer{
-    background-color: #717177;
-    width:2004px;
-  height:260px;
+    background-color: #fed2b3;
+    width:500px;
+  height:240px;
+        transform: rotate(-9deg);
+  box-shadow: inset 4px 17px 66px -23px rgba(0,0,0,0.75);
 }
 header{
     left:-370px;
-    top:-580px;
-    background-color: #717177;
-    transform: rotate(-16deg);
+    top:-300px;
+    display: ;
+    background-color: #4e4e56;
+    transform: rotate(-12deg);
+    box-shadow: 4px -9px 66px -2px rgba(0,0,0,0.95);
 
   }
   aside{
