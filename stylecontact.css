@@ -1,0 +1,209 @@
+main{width: 1300px;
+  height:auto;
+}
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway Dots', cursive;
+      background-color: #fed2b3;
+      /*background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+opacity: .6; */
+  /*position: absolute;*/
+  box-shadow: 0 0 0px inset;
+}
+
+
+header{width:1300px;
+
+  height:195px;
+  padding-top: 305px;
+  padding-left: 200px;
+background-color: #4e4e56;
+  text-align: bottom;
+vertical-align: text-bottom;
+  color: #fed2b3;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+  position:absolute;
+  left:-170px;
+  top:-350px;
+  transform: rotate(-17deg);
+  overflow-y: hidden;
+}
+
+nav{  width:2000px;
+      height: 45px;
+      position:fixed;
+      background-color: rgba(0, 0, 0, 0.0);
+      margin-top: -200px;
+    }
+
+    nav a:hover{
+      background-color: #4e4e56;
+      color: #000;
+    }
+
+    #text{width:700px;
+    background-color: rgba(255, 255, 255, 0.0);
+      margin-right:auto;
+      font-family: 'Raleway', sans-serif;
+      margin-left: 400px;
+      margin-top: 200px;
+      margin bottom: 50px;
+      padding: 15px;
+      text-align:justify;
+    }
+
+    footer{
+      width:2004px;
+      height:300px;
+      background-color: #5f5f66;
+        position: fixed;
+        bottom: -150px;
+        left: -100px;
+        z-index: -2;
+        transform: rotate(-5deg);
+        text-align: center;
+        overflow: hidden;
+      }
+
+      #footext{
+        width:200px;
+        height:100px;
+        background-color: rgba(0, 0, 0, 0.0);
+        z-index: 3;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+          position: fixed;
+          bottom: -50px;
+          right: 0px;
+          text-align: center;
+          overflow: hidden;
+
+      }
+
+    nav a{text-decoration: none;
+       transition: all 300ms linear 0s;
+}
+    nav a:link{color: #fed2b3; padding-top: 7px;}
+    nav a:visited{color: #fed2b3}
+    nav a:hover{color: #da635d; font size: 18px}
+    nav a:active{color: #da635d}
+
+    aside{
+      width:100px;
+      height:300px;
+      background-color: rgba(0, 0, 0, 0.0);
+      position: fixed;
+      top:-25px;
+      right: -10px;
+      padding-left: 30px;
+      padding-top: 20px;
+      overflow: hidden;
+    }
+
+    .title{
+      top: 80px;
+      left: 80px;
+      z-index: 99;
+    }
+
+  .imagesocial{float_left;
+    clear: both;
+    padding: 13px 50px
+}
+
+#block{
+  width:800px;
+  height:1500px;
+  background-color: #da635d;
+  z-index: -1;
+  position: fixed;
+  top:-700px;
+  right: -600px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+
+aside a{
+	width:50px;
+	height:50px;
+	display:block;
+	margin-bottom:5px;
+	margin-top:5px;
+  text-decoration: none;
+}
+aside	a:link{
+	background-image: url(images/sprits.png);
+	background-position-x:0px;
+}
+aside	a:visited{
+	background-image: url(images/sprits.png);
+	background-position-x:-50px;
+}
+aside	a:hover{
+	background-image: url(images/sprits.png);
+	background-position-x:-100px;
+}
+aside	a:active{
+	background-image: url(images/sprits.png);
+	background-position-x:-150px;
+}
+aside #vimeo a:link{
+	background-position-y:-50px;
+	background-position-x:0px;
+	background-image: url(images/sprits.png);
+}
+aside #vimeo a:visited{
+	background-position-y:-50px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);
+}
+aside #vimeo a:hover{
+	background-position-y:-50px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);
+}
+aside #vimeo a:active{
+	background-position-y:-50px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);
+}
+aside #tube a:link{
+	background-position-y:-100px;
+	background-position-x:0px;
+	background-image: url(images/sprits.png);
+}
+aside #tube a:visited{
+	background-position-y:-100px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);
+}
+aside #tube a:hover{
+	background-position-y:-100px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);
+}
+aside #tube a:active{
+	background-position-y:-100px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);
+}
+
+ul{
+  list-style: none;
+	padding:0px;
+	list-style: none;
+	display: block;
+}
+
+lit {
+display: inline;
+    padding: 150px;
+}
+
+li {
+display: inline;
+    padding: 10px;
+}
