@@ -50,10 +50,11 @@ function Ball() {
     this.life = random(50, 200);
     this.lifeMax = this.life;
     this.couleur = color(255, 255, 255);
-    this.posx = random(windowWidth / 2 - 20, windowWidth / 2 + 20);
-    this.posy = windowHeight;
-    var dx = map(mouseX,0,windowWidth,20,windowWidth/2)
-    this.vx = random(windowWidth/2-dx, windowWidth/2 + dx);
+   var dx = map(mouseX,0,windowWidth,20,windowWidth/2);
+    this.posx =  random(windowWidth/2-dx,windowWidth/2+dx);
+    this.posy = random(windowHeight,windowHeight);
+    
+    this.vx = random(-2, 2 );
     this.vy = random(map(mouseY,0,windowHeight,-20,-5), -3);
     this.taille = random(20, 50);
     this.angle = random(0, 360);
