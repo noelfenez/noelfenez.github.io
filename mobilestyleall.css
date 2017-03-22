@@ -19,14 +19,15 @@ font-family: 'Raleway', sans-serif;
 }
 
 #image1{
-  margin-top: 205px;
-  padding-left: 120px;
+  margin-top: 245px;
+  padding-left: 110px;
   transform: rotate(12deg);
 }
 
 body{
   background-color: #8ba9b1;
   position: absolute;
+  width: 360px;
 }
 
 #blocktext{
@@ -95,7 +96,7 @@ transform: rotate(9deg);
 }
 header{
     left:-370px;
-    top:-500px;
+    top:-540px;
     display:  ;
     background-color: #4e4e56;
     transform: rotate(-12deg);
@@ -115,6 +116,6 @@ header{
       display: none;
 }
   .container {
-    width: 500px;
+    width: 360px;
   }
 }
