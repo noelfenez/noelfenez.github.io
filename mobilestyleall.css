@@ -28,6 +28,8 @@ body{
   background-color: #8ba9b1;
   position: absolute;
   width: 360px;
+  margin: 0;
+  padding: 0;
 }
 
 #blocktext{
@@ -76,9 +78,9 @@ transform: rotate(9deg);
   /*  display: none;*/
   color: #fff;
 
-    margin-left: -100px;
-    margin-top: 0px;
     width:300px;
+    padding: 30px;
+
   }
 
   iframe{
