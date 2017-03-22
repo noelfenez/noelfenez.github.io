@@ -99,6 +99,18 @@ header{
     box-shadow: 4px -9px 66px -2px rgba(0,0,0,1.5);
 
   }
+
+   a{text-decoration: none;
+     transition: all 300ms linear 0s;
+}
+
+ a:link{color: #fff; padding-top: 7px;}
+ a:visited{color: #fff}
+ a:hover{color: #fff; font size: 18px}
+ a:active{color: #fff}
+
+
+
   aside{
     display: none;
     top:-25px;

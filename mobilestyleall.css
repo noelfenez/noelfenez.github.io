@@ -8,15 +8,16 @@ main{
   display: none;
 }
 
+
 #arrowright{
-  padding-left: 390px;
-  margin-top: -10px;
+margin-left: 400px;
+ margin-top: -23px;
   transform: rotate(9deg);
 }
 
 #arrowleft{
-  padding-left: 300px;
-  margin-top: -33px;
+margin-left: 260px;
+  margin-top: 20px;
   transform: rotate(9deg);
 }
 
@@ -89,10 +90,13 @@ transform: rotate(9deg);
   #text{
   /*  display: none;*/
   color: #fff;
-
+margin-top: 50px;
     width:300px;
     padding: 30px;
+  }
 
+  .image{
+    width: 320px;
   }
 
   iframe{
@@ -130,6 +134,6 @@ header{
       display: none;
 }
   .container {
-    width: 360px;
+    width: 320px;
   }
 }
