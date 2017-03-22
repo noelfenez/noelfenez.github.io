@@ -8,6 +8,19 @@ main{
   display: none;
 }
 
+.container .image img{
+  width: 300px;
+  margin-left: -30px;
+}
+
+.image {
+  width:300px;
+  z-index: -5;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  /*box-shadow: .2px .2px 20px #000;*/
+  transition: all 300ms linear 0s;
+}
 
 #arrowright{
 margin-left: 400px;
@@ -95,12 +108,8 @@ margin-top: 50px;
     padding: 30px;
   }
 
-  .image{
-    width: 320px;
-  }
 
   iframe{
-  /*  display: none;*/
     width:320px;
     height:186px;
   }
