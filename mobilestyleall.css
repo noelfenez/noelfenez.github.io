@@ -10,12 +10,13 @@ main{
 
 #arrowright{
   padding-left: 390px;
+  margin-top: -10px;
   transform: rotate(9deg);
 }
 
 #arrowleft{
-  padding-left: 250px;
-  padding-top: -140px;
+  padding-left: 300px;
+  margin-top: -33px;
   transform: rotate(9deg);
 }
 
