@@ -102,7 +102,7 @@ header{
     display:  ;
     background-color: #4e4e56;
     transform: rotate(-12deg);
-    box-shadow: 4px -9px 66px -2px rgba(0,0,0,2);
+    box-shadow: 4px -9px 66px 6px rgba(0,0,0,2);
 
   }
   aside{
