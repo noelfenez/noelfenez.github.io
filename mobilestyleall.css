@@ -8,6 +8,17 @@ main{
   display: none;
 }
 
+#arrowright{
+  padding-left: 390px;
+  transform: rotate(9deg);
+}
+
+#arrowleft{
+  padding-left: 250px;
+  padding-top: -140px;
+  transform: rotate(9deg);
+}
+
 #headertextmobile{
   display: none;
 font-size: 20px;
