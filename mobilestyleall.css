@@ -88,7 +88,7 @@ transform: rotate(9deg);
     display: none;
       width:450px;
       height:200px;
-      top:170px;
+      top:100px;
       right: -20px;
       background-color: #da635d;
       transform: rotate(3deg);
@@ -118,6 +118,8 @@ margin-top: 50px;
     background-color: #da635d;
     width:500px;
   height:190px;
+margin-top: 150px;
+position: fixed;
         transform: rotate(-9deg);
   box-shadow: 4px 17px 66px 9px rgba(0,0,0,0.90);
 }
@@ -125,7 +127,7 @@ header{
     left:-370px;
     top:-540px;
     display:  ;
-    background-color: #4e4e56;
+    background-color: #444;
     transform: rotate(-12deg);
     box-shadow: 4px -9px 66px 6px rgba(0,0,0,2);
 
