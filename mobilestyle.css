@@ -30,8 +30,8 @@ body{
 }
 
 #blocktext{
-margin-left: 220px;
-margin-top: 120px;
+margin-left: 210px;
+margin-top: 50px;
 color: #fff;
 font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -40,7 +40,7 @@ font-size: 30px;
 
 #maintext{
 margin-left: 130px;
-margin-top: 385px;
+margin-top: 280px;
 color: #fff;
 font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -58,11 +58,13 @@ transform: rotate(9deg);
 	#block{
       width:450px;
       height:200px;
-      top:100px;
+      top:400px;
       right: -20px;
+      position:fixed;
+      z-index: -10;
       background-color: #da635d;
       transform: rotate(3deg);
-      box-shadow: 4px -9px 66px 4px rgba(0,0,0,2);
+      box-shadow: 4px -9px 80px 1px rgba(0,0,0,.8);
 	}
 
 
@@ -87,17 +89,18 @@ transform: rotate(9deg);
     background-color: #fed2b3;
     width:500px;
   height:220px;
+
+  z-index: 10;
         transform: rotate(-9deg);
-  box-shadow: inset 4px -9px 66px 4px rgba(0,0,0,2);
+  box-shadow: inset 4px -9px 80px 9px rgba(0,0,0,2);
 
 }
 header{
     left:-370px;
     top:-340px;
-    display:  ;
     background-color: #4e4e56;
     transform: rotate(-12deg);
-    box-shadow: 4px -9px 66px 5px rgba(0,0,0,2);
+    box-shadow: 4px -9px 66px 5px rgba(0,0,0,4);
 
   }
 
