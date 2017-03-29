@@ -144,7 +144,7 @@ header{
 
 
 
-@media screen and (max-width: 650px) and (orientation: landscape){
+@media screen and (max-width: 736px) and (orientation: landscape){
 
   main{
     width:360px;
