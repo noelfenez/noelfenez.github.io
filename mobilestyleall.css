@@ -161,28 +161,27 @@ header{
   }
 
   .container .image img{
-    width: 280px;
+    width: 225px;
     margin-left: -30px;
   }
 
   .image {
-    width:250px;
-
+    width:150px;
     z-index: -5;
     margin-bottom: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   #arrowright{
-  margin-left: 450px;
-   margin-top: -23px;
-    transform: rotate(9deg);
+  margin-left: 280px;
+   margin-top: -15px;
+    transform: rotate(20deg);
   }
 
   #arrowleft{
-  margin-left: 260px;
-    margin-top: 20px;
-    transform: rotate(9deg);
+  margin-left: 180px;
+    margin-top: 25px;
+    transform: rotate(20deg);
   }
 
   #headertextmobile{
@@ -236,7 +235,7 @@ header{
   }
 
   	#block{
-      position: fixed;
+        display: none;
         width:550px;
         height:200px;
         top:100px;
@@ -262,8 +261,8 @@ header{
 
 
     iframe{
-      width:320px;
-      height:186px;
+      width:450px;
+      height:262px;
       margin-left: -10px;
     }
 
@@ -271,9 +270,10 @@ header{
       background-color: #da635d;
       width:500px;
     height:190px;
-  margin-top: 150px;
+  margin-top: 170px;
+  margin-left: 350px;
   position: fixed;
-          transform: rotate(-9deg);
+          transform: rotate(-20deg);
     box-shadow: 4px 17px 66px 9px rgba(0,0,0,2);
   }
   header{
@@ -298,6 +298,6 @@ header{
         display: none;
   }
     .container {
-      width: 320px;
+      width: 480px;
     }
 }
