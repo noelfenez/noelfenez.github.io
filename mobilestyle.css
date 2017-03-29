@@ -131,3 +131,151 @@ header{
     width: 500px;
   }
 }
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+@media screen and (max-width: 650px) and (orientation: landscape){
+
+  main{
+    width:360px;
+  }
+
+  #headertext{
+    display: none;
+  }
+
+  #headertextmobile{
+    display: none;
+  font-size: 20px;
+  transform:rotate(0deg);
+  padding-top: 108px;
+  padding-left: 100px;
+  color: 	#fff;
+  font-family: 'Raleway', sans-serif;
+  }
+
+  #image1{
+    margin-top: 585px;
+  margin-left: -500px;
+    transform: rotate(52deg);
+  }
+
+  body{
+    background-color: #8ba9b1;
+    position: fixed;
+  }
+
+  #blocktext{
+  margin-left: 310px;
+  margin-top: 100px;
+  color: #fff;
+  font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transform: rotate(-3deg);
+  }
+
+  #maintext{
+  margin-left: 380px;
+  margin-top: 120px;
+  color: #fff;
+  font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  #footertext{
+  margin-left: 80px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+  transform: rotate(9deg);
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  	#block{
+        width:450px;
+        height:200px;
+        top:-80px;
+        right: -20px;
+        position:fixed;
+        z-index: -10;
+        background-color: #da635d;
+        transform: rotate(3deg);
+        box-shadow: 4px -9px 66px 1px rgba(0,0,0,.9);
+  	}
+
+
+    #footext{
+      display:none;
+    }
+
+    #text{
+      display: none;
+      margin-left: 100p.;
+      margin-top: 200px;
+      width:320px;
+    }
+
+    iframe{
+      display: none;
+      width:320px;
+      height:186px;
+    }
+
+    footer{
+      background-color: #fed2b3;
+      width:700px;
+    height:220px;
+    margin-left: 120px;
+
+    z-index: 0;
+          transform: rotate(-9deg);
+    box-shadow: inset 4px -9px 80px 9px rgba(0,0,0,2);
+
+  }
+  header{
+      left:-570px;
+      top:-740px;
+      background-color: #4e4e56;
+      transform: rotate(-52deg);
+      box-shadow: 4px -9px 66px 5px rgba(0,0,0,4);
+      z-index: 10;
+
+    }
+
+     a{text-decoration: none;
+       transition: all 300ms linear 0s;
+  }
+
+   a:link{color: #fff; padding-top: 7px;}
+   a:visited{color: #fff}
+   a:hover{color: #fff; font size: 18px}
+   a:active{color: #fff}
+
+
+
+    aside{
+      display: none;
+      top:-25px;
+      right: -10px;
+      padding-left: 30px;
+      padding-top: 20px;
+      z-index: 10;
+    }
+
+    nav{
+        display: none;
+  }
+    .container {
+      width: 500px;
+    }
+}
