@@ -160,21 +160,28 @@ header{
     display: none;
   }
 
+  .container {
+    width: 550px;
+    margin-left: -40px;
+  }
+
   .container .image img{
     width: 225px;
     margin-left: -30px;
   }
 
   .image {
-    width:150px;
-    z-index: -5;
-    margin-bottom: 30px;
+    width:180px;
+
+    margin-bottom: 20px;
     margin-left: 20px;
+    padding-left: 50px;
   }
 
   #arrowright{
-  margin-left: 280px;
-   margin-top: -15px;
+    width:30px;
+  margin-left: 370px;
+   margin-top: -20px;
     transform: rotate(20deg);
   }
 
@@ -263,7 +270,7 @@ header{
     iframe{
       width:450px;
       height:262px;
-      margin-left: -10px;
+      margin-left: 10px;
     }
 
     footer{
@@ -297,7 +304,5 @@ header{
     nav{
         display: none;
   }
-    .container {
-      width: 480px;
-    }
+
 }
