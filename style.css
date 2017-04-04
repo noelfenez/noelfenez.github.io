@@ -96,6 +96,8 @@ nav{  width:2000px;
         transform: rotate(-5deg);
         text-align: center;
         overflow: hidden;
+        transition: all 300ms linear 0s;
+
       }
 
       #footext{
@@ -254,9 +256,18 @@ display: inline;
       transform: rotate(-45deg);
 	}
   #text{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 200px;
     width:600px;
+  }
+  #maintext{
+    display: none;
+  }
+  #footertext{
+    display:none;
+  }
+  #headertextmobile{
+    display: none;
   }
   iframe{
     width:560px;
@@ -275,12 +286,12 @@ header{
   }
   aside{
     top:-25px;
-    right: -10px;
+    right: -40px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 160px;
   }
   nav{
-          margin-top: -200px;
+          margin-top: -30px;
   }
   .container {
     width: 500px;
@@ -289,7 +300,7 @@ header{
     box-shadow: .2px .2px 20px #000;
     }
   }
-}
+
 
 
 
@@ -301,6 +312,15 @@ header{
       right: -600px;
       transform: rotate(-35deg);
 	}
+  #maintext{
+    display: none;
+  }
+  #footertext{
+    display:none;
+  }
+  #headertextmobile{
+    display: none;
+  }
   #text{
     margin-left: 0px;
     margin-top: 200px;
@@ -322,10 +342,10 @@ header{
     top:15px;
     right: -45px;
     padding-left: 15px;
-    padding-top: 90px;
+    padding-top: 120px;
   }
   nav{
-          margin-top: -200px;
+          margin-top: -30px;
   }
   .container {
     width: 500px;
@@ -347,6 +367,15 @@ header{
       right: -600px;
       transform: rotate(-45deg);
 	}
+  #maintext{
+    display: none;
+  }
+  #footertext{
+    display:none;
+  }
+  #headertextmobile{
+    display: none;
+  }
   #text{
     margin-left: 100px;
     margin-top: 200px;
@@ -374,7 +403,7 @@ header{
     padding-top: 100px;
   }
   nav{
-          margin-top: -200px;
+          margin-top: -30px;
   }
   .container {
     width: 500px;
@@ -402,6 +431,15 @@ header{
     margin-top: 200px;
     width:700px;
   }
+  #maintext{
+    display: none;
+  }
+  #footertext{
+    display:none;
+  }
+  #headertextmobile{
+    display: none;
+  }
 #gallery iframe{
 width: 500px;
 height:326px;
@@ -427,7 +465,7 @@ aside{
   padding-top: 20px;
 }
 nav{
-        margin-top: -200px;
+        margin-top: -30px;
 }
 .container {
   width: 1100px;
@@ -457,6 +495,15 @@ display:none;
     margin-top: 200px;
     width:900px;
   }
+  #maintext{
+    display: none;
+  }
+  #footertext{
+    display:none;
+  }
+  #headertextmobile{
+    display: none;
+  }
   iframe{
     width:800px;
     height:464px;
@@ -476,7 +523,7 @@ aside{
   padding-top: 20px;
 }
 nav{
-        margin-top: -200px;
+        margin-top: -30px;
 }
 .container {
   width: 1100px;
@@ -507,6 +554,15 @@ display:none;
       margin-top: 150px;
       width:850px;
     }
+    #maintext{
+      display: none;
+    }
+    #footertext{
+      display:none;
+    }
+    #headertextmobile{
+      display: none;
+    }
     iframe{
       width:800px;
       height:464px;
@@ -526,7 +582,7 @@ display:none;
     padding-top: 80px;
   }
   nav{
-          margin-top: -150px;
+          margin-top: -30px;
   }
   .container {
     width: 1100px;
@@ -554,6 +610,15 @@ display:none;
       margin-top: 100px;
       width:850px;
     }
+    #maintext{
+      display: none;
+    }
+    #footertext{
+      display:none;
+    }
+    #headertextmobile{
+      display: none;
+    }
     iframe{
       width:800px;
       height:464px;
@@ -573,7 +638,7 @@ display:none;
     padding-top: 20px;
   }
   nav{
-          margin-top: -100px;
+          margin-top: -30px;
   }
   .container {
     width: 1100px;
@@ -598,6 +663,15 @@ display:none;
       margin-top: 55px;
       width:850px;
     }
+    #maintext{
+      display: none;
+    }
+    #footertext{
+      display:none;
+    }
+    #headertextmobile{
+      display: none;
+    }
     iframe{
       width:800px;
       height:464px;
@@ -617,7 +691,7 @@ display:none;
     padding-top: 20px;
   }
   nav{
-          margin-top: -50px;
+          margin-top: -30px;
   }
   .container {
     width: 1100px;
@@ -642,11 +716,21 @@ display:none;
       margin-top: 50px;
       width:850px;
     }
+    #maintext{
+      display: none;
+    }
+    #footertext{
+      display:none;
+    }
+    #headertextmobile{
+      display: none;
+    }
+
     iframe{
       width:800px;
       height:464px;
     }
-    footer{width:2504px;
+    footer{width:2704px;
     height:300px;
   }
   header{
@@ -661,7 +745,7 @@ display:none;
     padding-top: 20px;
   }
   nav{
-          margin-top: 50px;
+          margin-top: -30px;
   }
   .container {
     width: 1100px;
@@ -669,4 +753,19 @@ display:none;
   #image1{
   display:none;
   }
+  }
+
+
+
+
+
+
+
+
+  @media print{
+    body{
+      font-family: times;
+      margin-left: 20%;
+    }
+    nav{display:none;}
   }
