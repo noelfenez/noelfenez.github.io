@@ -8,6 +8,31 @@ main{
   display: none;
 }
 
+#instalogo{
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+#vimlogo{
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+#youlogo{
+  margin-left: 250px;
+  margin-top: -50px;
+}
+
+#emaillogo{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#tellogo{
+  margin-left: 200px;
+  margin-top: -60px;
+}
+
 .container .image img{
   width: 280px;
   margin-left: -30px;
