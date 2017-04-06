@@ -247,7 +247,7 @@ header{
       top:-740px;
       background-color: #4e4e56;
       transform: rotate(-52deg);
-      box-shadow: 4px -9px 66px 5px rgba(0,0,0,4);
+      box-shadow: 4px -9px 66px 5px rgba(0,0,0,9);
       z-index: 10;
 
     }
