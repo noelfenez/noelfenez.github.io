@@ -41,8 +41,8 @@ nav{  width:2000px;
       height: 45px;
       position:fixed;
       background-color: rgba(0, 0, 0, 0.0);
-      margin-top: -200px;
-      margin-left: -100px;
+      left: 0px;
+      top:10px;
     }
 
 
@@ -238,14 +238,10 @@ ul{
 	display: block;
 }
 
-lit {
-display: inline;
-    padding: 150px;
-}
 
 li {
 display: inline;
-    padding: 10px;
+    padding: 50px;
 }
 /*  ----------------------------------------------------------------  */
 
