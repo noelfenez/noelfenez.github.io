@@ -203,6 +203,31 @@ header{
     padding-left: 50px;
   }
 
+  #instalogo{
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  #vimlogo{
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+
+  #youlogo{
+    margin-left: 300px;
+    margin-top: -50px;
+  }
+
+  #emaillogo{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  #tellogo{
+    margin-left: 200px;
+    margin-top: -60px;
+  }
+
   #arrowright{
     width:30px;
   margin-left: 370px;
@@ -287,14 +312,14 @@ header{
     color: #fff;
   margin-top: 50px;
   margin-left: 50px;
-      width:400px;
+      width:500px;
       padding: 30px;
     }
 
 
     iframe{
-      width:450px;
-      height:262px;
+      width:430px;
+      height:250px;
       margin-left: 10px;
     }
 
