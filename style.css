@@ -528,11 +528,11 @@ height:326px;
     height:377px;
   }
   footer{width:2004px;
-  height:300px;
+  height: 250px;
 }
 header{
   left:-170px;
-  top:-350px;
+  top:-450px;
   transform: rotate(-17deg);
 }
 aside{
