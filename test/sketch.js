@@ -13,7 +13,6 @@ function setup() {
 function draw(){
  background(150);
  
-fill(200, 200, 50);
 	beginShape();
 	for (var i = 0; i < touches.length; i++) {
 		vertex(touches[i].x, touches[i].y);
