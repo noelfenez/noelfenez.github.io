@@ -13,12 +13,13 @@ function setup() {
 function draw(){
  background(150);
  
+
 	beginShape();
 	for (var i = 0; i < touches.length; i++) {
 		vertex(touches[i].x, touches[i].y);
 	}
 	endShape(CLOSE);
-	fill(175, 255, 100);
+	fill(100, 220, 75);
 	for (var j = 0; j < touches.length; j++) {
 		ellipse(touches[j].x, touches[j].y, 75, 75);
 	}
