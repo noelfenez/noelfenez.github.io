@@ -17,8 +17,8 @@ function draw(){
 	for (var i = 0; i < touches.length; i++) {
 		vertex(touches[i].x, touches[i].y);
 		textSize(35);
-		text(touches[i].x,touches[i].x,touches[i].y);
-		text(touches[i].y,touches[i].x,touches[i].y);
+		text(floor(touches[i].x),touches[i].x,touches[i].y);
+		text((floortouches[i].y),touches[i].x,touches[i].y);
 	}
 	
 	endShape(CLOSE);
