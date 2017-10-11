@@ -25,6 +25,6 @@ function draw(){
 	fill(100, 220, 75);
 
  for(var i=0;i<touches.length;i++){
-  rect(touches[i].x,touches[i].y,150,150);
+  ellipse(touches[i].x,touches[i].y,150,150);
   }
 }
