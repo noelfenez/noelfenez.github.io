@@ -11,13 +11,13 @@ function setup() {
 }
 
 function draw(){
- background(150);
+ background(100,120);
  
-
 	beginShape();
 	for (var i = 0; i < touches.length; i++) {
 		vertex(touches[i].x, touches[i].y);
 	}
+	
 	endShape(CLOSE);
 	fill(100, 220, 75);
 	for (var j = 0; j < touches.length; j++) {
