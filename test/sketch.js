@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw(){
- background(100,120,75);
+ background(150);
  
 	beginShape();
 	for (var i = 0; i < touches.length; i++) {
