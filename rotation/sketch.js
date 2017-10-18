@@ -7,7 +7,7 @@ function setup() {
   vy = 0;
   ax = 0;
   ay = 0;
-  vMultipier = 0.05;
+  vMultiplier = 0.05;
   px = windowWidth / 2;
   py = windowHeight / 2;
 }
@@ -24,7 +24,7 @@ function draw() {
 
 function drawBall() {
   fill(70, 100, 60);
-  
+
   ax = rotationY * vMultiplier;
   ay = rotationX * vMultiplier;
   vx += ax;
