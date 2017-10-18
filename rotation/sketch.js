@@ -40,14 +40,14 @@ function drawBall() {
 	}
 	if (px < 0 + s / 2) {
 		px = 0 + s / 2;
-		vx = -vx;
+		vx = -vx * 0.5;
 	}
 	if (py > windowHeight - s / 2) {
 		py = windowHeight - s / 2;
-		vy = -vy;
+		vy = -vy * 0.5;
 	}
 	if (py < 0 + s / 2) {
 		py = 0 + s / 2;
-		vy = -vy;
+		vy = -vy * 0.5;
 	}
 }
