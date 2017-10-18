@@ -1,5 +1,15 @@
+var px,py,vx,vy,ax,ay,vMultiplier;
+
 function setup() {
  createCanvas(windowWidth,windowHeight); 
+
+ vx = 0;
+ vy = 0;
+ ax = 0;
+ ay = 0;
+ vMultipier = 0;
+ px = windowWidth/2;
+ py = windowHeight/2;
 }
 
 function draw() {
@@ -8,7 +18,17 @@ function draw() {
  text("Rx: " + rotationX, 100, 100);
  text("Ry: " + rotationY, 100, 150);
  text("Rz: " + rotationZ, 100, 200);
- 
- //changes
- 
+ drawBall();
+
+}
+
+function drawBall(){
+fill(0,0,0)
+ax = rotationY * vMultiplier;
+ay = rotationX * vMultiplier;
+vx += ax;
+px += vx;
+vy += ay;
+py += vy;
+ellipse(px,py,100)
 }
