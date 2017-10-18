@@ -27,10 +27,8 @@ function drawBall() {
   
   ax = rotationY * vMultiplier;
   ay = rotationX * vMultiplier;
-  
   vx += ax;
   vy += ay;
-
   px += vx;
   py += vy;
   
