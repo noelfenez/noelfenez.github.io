@@ -27,8 +27,8 @@ fill(0,0,0)
 ax = rotationY * vMultiplier;
 ay = rotationX * vMultiplier;
 vx += ax;
-px += vx;
 vy += ay;
+px += vx;
 py += vy;
 ellipse(px,py,100)
 }
