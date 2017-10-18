@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(150);
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
