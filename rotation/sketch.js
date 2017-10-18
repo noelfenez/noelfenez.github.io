@@ -30,8 +30,7 @@ function drawBall() {
   
   vx += ax;
   vy += ay;
-  console.log(vx);
-   console.log(vy);
+
   px += vx;
   py += vy;
   
