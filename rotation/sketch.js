@@ -2,7 +2,7 @@ var px, py, vx, vy, ax, ay, vMultiplier,s;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  s = 100;
+  s = 25;
   vx = 0;
   vy = 0;
   ax = 0;
@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
   background(150);
-  textSize(40);
+  textSize(10);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
   text("Rz: " + rotationZ, 100, 200);
@@ -32,7 +32,7 @@ function drawBall() {
   px += vx;
   py += vy;
   
-  ellipse(px, py, 100, 100);
+  ellipse(px, py, 25, 25);
   
   if (px > windowWidth - s / 2) {
 		px = windowWidth - s / 2;
