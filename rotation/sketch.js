@@ -23,7 +23,7 @@ function draw() {
 }
 
 function drawBall(){
-fill(0,0,0)
+fill(70,100,600)
 ax = rotationY * vMultiplier;
 ay = rotationX * vMultiplier;
 vx += ax;
