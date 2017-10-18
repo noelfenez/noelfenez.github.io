@@ -1,8 +1,8 @@
-var px, py, vx, vy, ax, ay, vMultiplier;
+var px, py, vx, vy, ax, ay, vMultiplier,s;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
+  s = 100;
   vx = 0;
   vy = 0;
   ax = 0;
@@ -33,4 +33,21 @@ function drawBall() {
   py += vy;
   
   ellipse(px, py, 100, 100);
+  
+  if (px > windowWidth - s / 2) {
+		px = windowWidth - s / 2;
+		vx = -vx;
+	}
+	if (px < 0 + s / 2) {
+		px = 0 + s / 2;
+		vx = -vx;
+	}
+	if (py > windowHeight - s / 2) {
+		py = windowHeight - s / 2;
+		vy = -vy;
+	}
+	if (py < 0 + s / 2) {
+		py = 0 + s / 2;
+		vy = -vy;
+	}
 }
