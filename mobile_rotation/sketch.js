@@ -8,4 +8,7 @@ function draw() {
  text("Rx: " + rotationX, 100, 100);
  text("Ry: " + rotationY, 100, 150);
  text("Rz: " + rotationZ, 100, 200);
+ 
+ //change
+ 
 }
